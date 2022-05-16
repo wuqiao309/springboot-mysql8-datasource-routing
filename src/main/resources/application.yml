@@ -5,15 +5,15 @@ spring:
     hikari:
       driver-class-name: com.mysql.cj.jdbc.Driver
     master:
-      jdbc-url: jdbc:mysql://ubuntu01:3306/demo?serverTimezone
+      jdbc-url: jdbc:mysql://ubuntu01:3306/demo
       username: root
       password: 1234
     slave1:
-      jdbc-url: jdbc:mysql://ubuntu01:3306/demo?serverTimezone
+      jdbc-url: jdbc:mysql://ubuntu01:3306/demo
       username: read_only
       password: 1234
     slave2:
-      jdbc-url: jdbc:mysql://ubuntu01:3306/demo?serverTimezone
+      jdbc-url: jdbc:mysql://ubuntu01:3306/demo
       username: read_only
       password: 1234
 
